@@ -1,0 +1,15 @@
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\bin\Debug\net7.0\RobotVacuumCleaner.exe
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\bin\Debug\net7.0\RobotVacuumCleaner.deps.json
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\bin\Debug\net7.0\RobotVacuumCleaner.runtimeconfig.json
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\bin\Debug\net7.0\RobotVacuumCleaner.dll
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\bin\Debug\net7.0\RobotVacuumCleaner.pdb
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.csproj.AssemblyReference.cache
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.AssemblyInfoInputs.cache
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.AssemblyInfo.cs
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.csproj.CoreCompileInputs.cache
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.dll
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\refint\RobotVacuumCleaner.dll
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.pdb
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\RobotVacuumCleaner.genruntimeconfig.cache
+C:\Users\LENOVA\Desktop\apps\.netCore\RobotVacuumCleaner\obj\Debug\net7.0\ref\RobotVacuumCleaner.dll
