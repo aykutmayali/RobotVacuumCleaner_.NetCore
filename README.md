@@ -54,8 +54,9 @@ MMRMMRMRRM
 1 3 N
 5 1 E
 
-#### Note: In this scenario, the robot vacuum cleaner starts at the initial position and orientation
+#### Note:
 
+In this scenario, the robot vacuum cleaner starts at the initial position and orientation
 specified in the input. The 'L', 'R', and 'M' instructions indicate the robot should turn left or right
 by 90 degrees or move forward one grid point in the current orientation, respectively. Each robot
 will be finished sequentially, which means that the second robot won't start to move until the
