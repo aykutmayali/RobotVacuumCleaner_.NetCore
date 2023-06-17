@@ -11,9 +11,9 @@ public class Program
         Position firstRobotPosition, secondRobotPosition;
         string firstRobotInstructions, secondRobotInstructions;
 
-        // //For Running Test Uncomment
-        // RobotVacuumCleanerTests tests = new RobotVacuumCleanerTests();
-        // tests.TestRobotVacuumCleaner();
+        //For Running Test Uncomment
+        RobotVacuumCleanerTests tests = new RobotVacuumCleanerTests();
+        tests.TestRobotVacuumCleaner();
 
         // Parse input
         Console.WriteLine("Enter Room Size for X Y");
@@ -42,7 +42,7 @@ public class Program
         secondRobotInstructions = Console.ReadLine();
 
         // Create RobotVacuumCleaner instance
-        var vacuumCleaner = new RobotVacuumCleaner(firstRobotPosition, firstRobotInstructions, secondRobotPosition, secondRobotInstructions);
+        var vacuumCleaner = new RobotVacuumCleaner(firstRobotPosition, firstRobotInstructions, secondRobotPosition, secondRobotInstructions, roomWidth, roomHeight);
 
         // Get final positions        
         Position firstRobotFinalPosition = vacuumCleaner.GetFirstRobotPosition();

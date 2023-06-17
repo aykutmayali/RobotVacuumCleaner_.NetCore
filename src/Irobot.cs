@@ -4,5 +4,5 @@ namespace RobotVacuumCleaner;
 
 public interface IRobot
 {
-    void Move(string instructions);
+    void Move(string instructions, int roomWidth, int roomHeight);
 }

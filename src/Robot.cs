@@ -6,12 +6,12 @@ public class Robot : IRobot
 {
     private Position _position;
 
-    public Robot(Position position)
+    public Robot(Position position, int roomWidth, int roomHeight)
     {
         _position = position;
     }
 
-    public void Move(string instructions)
+    public void Move(string instructions, int roomWidth, int roomHeight)
     {
         foreach (var instruction in instructions)
         {
@@ -20,7 +20,7 @@ public class Robot : IRobot
             else if (instruction == 'R')
                 TurnRight();
             else if (instruction == 'M')
-                MoveForward();
+                MoveForward(roomWidth, roomHeight);
             else
                 throw new ArgumentException($"Invalid instruction: {instruction}");
         }
@@ -64,20 +64,28 @@ public class Robot : IRobot
         }
     }
 
-    private void MoveForward()
+    private void MoveForward(int roomWidth, int roomHeight)
     {
         switch (_position.Orientation)
         {
             case Orientation.N:
+                if (_position.Y + 1 > roomHeight)
+                    throw new InvalidOperationException("Cannot move north. The room size is not big enough.");
                 _position.Y++;
                 break;
             case Orientation.E:
+                if (_position.X + 1 > roomWidth)
+                    throw new InvalidOperationException("Cannot move east. The room size is not big enough.");
                 _position.X++;
                 break;
             case Orientation.S:
+                if (_position.Y - 1 < 0)
+                    throw new InvalidOperationException("Cannot move south. The room size is not big enough.");
                 _position.Y--;
                 break;
             case Orientation.W:
+                if (_position.X - 1 < 0)
+                    throw new InvalidOperationException("Cannot move west. The room size is not big enough.");
                 _position.X--;
                 break;
         }

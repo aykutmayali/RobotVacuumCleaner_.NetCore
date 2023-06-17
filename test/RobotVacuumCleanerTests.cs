@@ -6,12 +6,15 @@ public class RobotVacuumCleanerTests
 {
     public void TestRobotVacuumCleaner()
     {
+        int roomWidth, roomHeight;
+        roomWidth = 5;
+        roomHeight = 5;
         Position firstRobotPosition = new Position(1, 2, Orientation.N);
         string firstRobotInstructions = "LMLMLMLMM";
         Position secondRobotPosition = new Position(3, 3, Orientation.E);
         string secondRobotInstructions = "MMRMMRMRRM";
 
-        RobotVacuumCleaner vacuumCleaner = new RobotVacuumCleaner(firstRobotPosition, firstRobotInstructions, secondRobotPosition, secondRobotInstructions);
+        RobotVacuumCleaner vacuumCleaner = new RobotVacuumCleaner(firstRobotPosition, firstRobotInstructions, secondRobotPosition, secondRobotInstructions, roomWidth, roomHeight);
 
         Position firstRobotFinalPosition = vacuumCleaner.GetFirstRobotPosition();
         Position secondRobotFinalPosition = vacuumCleaner.GetSecondRobotPosition();

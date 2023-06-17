@@ -7,13 +7,13 @@ public class RobotVacuumCleaner
     private Robot _firstRobot;
     private Robot _secondRobot;
 
-    public RobotVacuumCleaner(Position firstRobotPosition, string firstRobotInstructions, Position secondRobotPosition, string secondRobotInstructions)
+    public RobotVacuumCleaner(Position firstRobotPosition, string firstRobotInstructions, Position secondRobotPosition, string secondRobotInstructions, int roomWidth, int roomHeight)
     {
-        _firstRobot = new Robot(firstRobotPosition);
-        _secondRobot = new Robot(secondRobotPosition);
+        _firstRobot = new Robot(firstRobotPosition, roomWidth, roomHeight);
+        _secondRobot = new Robot(secondRobotPosition, roomWidth, roomHeight);
 
-        _firstRobot.Move(firstRobotInstructions);
-        _secondRobot.Move(secondRobotInstructions);
+        _firstRobot.Move(firstRobotInstructions, roomWidth, roomHeight);
+        _secondRobot.Move(secondRobotInstructions, roomWidth, roomHeight);
     }
 
     public Position GetFirstRobotPosition()
