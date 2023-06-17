@@ -9,7 +9,9 @@
 -   SOLID principles should be followed.
 -   Codes need to be added to a Github repository. A read permission need to be given to
     Gizil. (github.com/Gizil-Digital)
-    Code Review: Robot Vacuum Cleaner
+
+#### Code Review: Robot Vacuum Cleaner
+
     A company is developing two new robot vacuum cleaners to navigate a rectangular room. The
     robots are equipped with sensors that allow them to detect the edges of the room and obstacles
     within it. The robots' position and orientation are represented by a combination of x and y
