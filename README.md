@@ -4,10 +4,10 @@
 
 ### General Criteria:
 
-• Application needs to be developed in .Net Core.
-• Unit test should be written for application.
-• SOLID principles should be followed.
-• Codes need to be added to a Github repository. A read permission need to be given to
+• - Application needs to be developed in .Net Core.
+• - Unit test should be written for application.
+• - SOLID principles should be followed.
+• - Codes need to be added to a Github repository. A read permission need to be given to
 Gizil. (github.com/Gizil-Digital)
 Code Review: Robot Vacuum Cleaner
 A company is developing two new robot vacuum cleaners to navigate a rectangular room. The
