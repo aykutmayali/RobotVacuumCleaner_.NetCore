@@ -12,6 +12,7 @@ public class Program
         string firstRobotInstructions, secondRobotInstructions;
 
         //For Running Test Uncomment
+        Console.WriteLine("Output of the Test: ");
         RobotVacuumCleanerTests tests = new RobotVacuumCleanerTests();
         tests.TestRobotVacuumCleaner();
 

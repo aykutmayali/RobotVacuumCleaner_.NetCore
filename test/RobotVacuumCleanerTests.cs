@@ -19,7 +19,9 @@ public class RobotVacuumCleanerTests
         Position firstRobotFinalPosition = vacuumCleaner.GetFirstRobotPosition();
         Position secondRobotFinalPosition = vacuumCleaner.GetSecondRobotPosition();
 
+        Console.WriteLine("first robot position : ");
         Console.WriteLine(firstRobotFinalPosition);  // Output: 1 3 N
+        Console.WriteLine("second robot position : ");
         Console.WriteLine(secondRobotFinalPosition); // Output: 5 1 E
     }
 }

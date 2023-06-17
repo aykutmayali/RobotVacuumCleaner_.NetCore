@@ -17,6 +17,6 @@ public class Position
 
     public override string ToString()
     {
-        return $"{X}{Y}{Orientation}";
+        return $"{X} {Y} {Orientation}";
     }
 }
