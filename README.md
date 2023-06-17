@@ -1,6 +1,6 @@
 "# RobotVacuumCleaner\_.NetCore"
 
-## Back-End Developer – Case Study
+<!-- ## Back-End Developer – Case Study
 
 ### General Criteria:
 
@@ -21,7 +21,7 @@
     the user sends a simple string of letters. The possible letters are 'L', 'R', and 'M'. 'L' and 'R' make
     the robot turn 90 degrees left or right respectively, without moving from its current spot. 'M'
     means move forward one grid point in the current orientation. Assume that the square directly
-    North from (x, y) is (x, y+1).
+    North from (x, y) is (x, y+1). -->
 
 #### Input:
 
